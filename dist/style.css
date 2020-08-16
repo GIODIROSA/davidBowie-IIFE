@@ -1,0 +1,69 @@
+
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-image: url(./img/bowie\ 01.jpg);
+    background-attachment: fixed;
+    font-family: 'Oswald', sans-serif;
+   
+}
+/* titulo central */
+.title_web{
+    color: #3c2c3e;
+    text-align: center;
+    font-size: 100px;
+    font-weight: 400;
+}
+/* button config style */
+.botones{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+}
+.btn{
+    color: #ffffdd;
+    padding: 20px 0px;
+    width: 100px;
+    box-shadow: 0px;
+    border: 0px;
+    border-radius: 60px;
+    background-color: #ffa36c;
+    font-size: 20px;
+}
+.btn:hover{
+    box-shadow: 2px 2px 5px gray;
+}
+
+/* btn-music - contenido */
+.title_video{
+    padding-top: 50px;
+    margin: 0px;
+    font-size: 100px;
+    color: #59405c;
+    text-align: center;
+}
+h4{
+    margin: 0px;
+}
+#videoBowie{
+    margin: 100px 450px;
+    width: 560px;
+    height: 315px; 
+}
+.title_video2{
+    text-align: center;
+    font-weight: 300;
+    font-size: 50px;
+    color: #3c2c3e;
+    margin: 0px;
+
+}
+
+/* config post - btn cine */
+.post{
+    padding: 20px;
+    margin: 30px 400px;
+}
+
